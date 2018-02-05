@@ -1,0 +1,3 @@
+SELECT * 
+FROM customer
+WHERE create_date > DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY);

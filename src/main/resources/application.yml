@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    maxActive: 1
+    maxIdle: 1
+    minIdle: 0
+    initialSize: 0
